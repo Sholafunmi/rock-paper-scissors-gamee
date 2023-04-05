@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #fff;
+    background-color:rgb(4, 93, 145) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+.gameArea{
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    height: 100vh;
+    /* height: fit-content; */
+    background-color: rgb(4, 93, 145);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7em;
+}
+.howToPlay{
+text-align: center;
+}
+.players{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    text-align:center;
+    
+}
+.playerBox{
+    /* background-color:rgb(3, 128, 201) ; */
+    background-color: rgba(117, 22, 43, 0.904);
+    text-align:center;
+    padding: 30px 40px;
+    border: dotted;
+    border-radius: 10px;
+    font-size: 25px;
+   
+}
+.ComputerBox{
+    background-color: rgba(117, 22, 43, 0.904);
+    /* background-color:rgb(62, 171, 235) ; */
+    padding: 30px 40px;
+    border-radius: 10px;
+    border: dotted;
+    font-size: 25px;
+}
+.play{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.play-btn{
+    padding: 20px 40px;
+    font-size: 20px;
+    text-align:center;
+    background-color: #fff;
+    /* color: #fff; */
+    border-radius: 10px;
+    border: dotted;
+    cursor: pointer;
+}
+.foot{
+    font-size: 15px;
+   
+}
+.foot a{
+     text-decoration: none;
+      /* color: rgba(245, 124, 11, 0.904); */
+      color: rgba(240, 181, 194, 0.904);
+}
+h1{
+    text-align: center;
+    font-size: 45px; 
+}
+
+
+
+/* for tablest */
+@media only screen and (max-width:900px){
+    body{
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+    }
+    .gameArea{
+        font-family: 'Courier New', Courier, monospace;
+        width: 100%;
+        min-height: 100vh;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 7em;
+    }
+    .howToPlay{
+    text-align: center;
+    }
+    .players{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 3em;
+        text-align:center;
+        
+    }
+    .playerBox{
+        text-align:center;
+        background-color: rgba(117, 22, 43, 0.904);
+        padding: 30px 40px;
+        border: dotted;
+        border-radius: 10px;
+        font-size: 25px;
+       
+    }
+    .ComputerBox{
+        background-color: rgba(117, 22, 43, 0.904);
+        padding: 30px 40px;
+        border-radius: 10px;
+        border: dotted;
+        font-size: 25px;
+    }
+    .play{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+    }
+    .play-btn{
+        padding: 20px 40px;
+        font-size: 20px;
+        text-align:center;
+        background-color: #fff;
+        /* color: #fff; */
+        border-radius: 10px;
+        border: dotted;
+        cursor: pointer;
+    }
+  
+    h1{
+        text-align: center;
+        font-size: 45px;
+    }
+  .foot{
+    font-size: 14px;
+  }
+
+
+
+
+/* MOBILE  */
+@media only screen and (max-width:600px){
+    body{
+        background-color: rgb(4, 93, 145);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .gameArea{
+        gap: 2em;
+        width: 95%;
+        height: fit-content;
+        margin-top: 2em;
+    }
+    h1{
+        text-align: center;
+        font-size: 25px;
+      
+    }
+   .howToPlay{
+    font-size: 15px;
+   }
+    .players{
+        gap:4em ;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+        
+    }
+    .playerBox{
+        width: 300px;
+        padding: 20px 10px;
+        border-radius: 10px;
+        font-size: 18px;
+       
+    }
+    .ComputerBox{
+        padding: 20px 10px;
+        border-radius: 10px;
+        border: dotted;
+        font-size: 18px;
+        width: 250px;
+    }
+    .play{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    margin-top: 2em;
+
+    }
+    .play-btn{
+        padding: 20px 40px;
+        font-size: 20px;
+        text-align:center;
+        background-color: #fff;
+        /* color: #fff; */
+        border-radius: 10px;
+        border: dotted;
+        cursor: pointer;
+        margin-bottom: 2em;
+        /* margin: 2em 0; */
+    }
+    .foot{
+        font-size: 12px;
+        text-align: center;
+    }
+} 
